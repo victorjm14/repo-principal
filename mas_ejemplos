@@ -1,0 +1,12 @@
+ex = (1,2,4,6,7)
+
+output = []
+for num in ex:
+    if num%2 == 0:
+        output.append(num)
+print(output)
+
+
+#lista de compresión
+
+#output2 = [num for num ]
